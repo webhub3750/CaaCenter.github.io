@@ -76,11 +76,15 @@ nav {
 .banner {
   display: flex;
   justify-content: center;
+  align-items: center; /* Adicione esta linha para centralizar verticalmente */
   padding: 20px 0;
+  text-align: center; /* Adicione esta linha para centralizar horizontalmente */
 }
 
 .banner img {
   max-width: 100%;
+  max-height: 100%; /* Use max-height para manter a proporção da imagem */
+  width: auto;
   height: auto;
 }
 
